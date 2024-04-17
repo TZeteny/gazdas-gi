@@ -17,8 +17,6 @@ avr = function(arr) {
 x = c(1, 2, 3, 4, 5)
 y = c(0.9, 1.1, 2.8, 4.1, 5.3)
 
-x_sum = sum_arr(x)
-y_sum = sum_arr(y)
 x_avr = avr(x)
 y_avr = avr(y)
 
