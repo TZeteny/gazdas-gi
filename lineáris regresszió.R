@@ -34,11 +34,7 @@ a = y_avr - b * x_avr
 print(a)
 print(b)
 
-linreg = c()
-for (i in 1:length(x)) {
-  linreg[i] = a + b * x[i]
-}
-
+linreg = a + b * x
 print(linreg)
 
 plot(
